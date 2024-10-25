@@ -1,0 +1,26 @@
+﻿
+2024-10-25 22:32:34.0164|INFO|DeliveryOrderFilter.OrderManager|Reading Orders
+2024-10-25 22:33:41.3716|INFO|DeliveryOrderFilter.OrderManager|Reading Orders
+2024-10-25 22:33:59.3676|INFO|DeliveryOrderFilter.OrderManager|Reading Orders
+2024-10-25 22:34:19.0556|INFO|DeliveryOrderFilter.OrderManager|Reading Orders
+2024-10-25 22:42:51.5994|INFO|DeliveryOrderFilter.OrderManager|Reading Orders
+2024-10-25 22:42:51.7153|ERROR|DeliveryOrderFilter.OrderManager|order 3 could not be validated
+2024-10-25 22:42:51.7334|INFO|DeliveryOrderFilter.OrderManager|Filtering Orders in sas less than 30 min after 25.10.2024 15:32:32
+2024-10-25 22:42:55.9168|INFO|DeliveryOrderFilter.OrderManager|Reading Orders
+2024-10-25 22:42:56.0309|ERROR|DeliveryOrderFilter.OrderManager|order 3 could not be validated
+2024-10-25 22:42:56.0515|INFO|DeliveryOrderFilter.OrderManager|Filtering Orders in sas less than 30 min after 25.10.2024 15:32:32
+2024-10-25 22:53:25.0656|INFO|DeliveryOrderFilter.OrderManager|Reading Orders
+2024-10-25 22:53:25.1454|ERROR|DeliveryOrderFilter.OrderManager|order 3 could not be validated
+2024-10-25 22:54:45.2927|INFO|DeliveryOrderFilter.OrderManager|Reading Orders
+2024-10-25 22:54:45.3784|ERROR|DeliveryOrderFilter.OrderManager|order 3 could not be validated
+2024-10-25 22:55:15.4953|INFO|DeliveryOrderFilter.OrderManager|Reading Orders
+2024-10-25 22:55:15.5790|ERROR|DeliveryOrderFilter.OrderManager|order 3 could not be validated
+2024-10-25 22:55:42.9578|INFO|DeliveryOrderFilter.OrderManager|Reading Orders
+2024-10-25 22:55:43.0621|ERROR|DeliveryOrderFilter.OrderManager|order 3 could not be validated
+2024-10-25 22:55:43.0814|INFO|DeliveryOrderFilter.OrderManager|Filtering Orders in sas less than 30 min after 25.10.2024 15:32:32
+2024-10-25 22:56:28.0863|INFO|DeliveryOrderFilter.OrderManager|Reading Orders
+2024-10-25 22:56:28.1691|ERROR|DeliveryOrderFilter.OrderManager|order 3 could not be validated
+2024-10-25 22:56:28.1845|INFO|DeliveryOrderFilter.OrderManager|Filtering Orders in sas less than 30 min after 25.10.2024 15:20:11
+2024-10-25 22:56:47.3145|INFO|DeliveryOrderFilter.OrderManager|Reading Orders
+2024-10-25 22:56:47.3993|ERROR|DeliveryOrderFilter.OrderManager|order 3 could not be validated
+2024-10-25 22:56:47.4146|INFO|DeliveryOrderFilter.OrderManager|Filtering Orders in sas less than 30 min after 25.10.2024 15:13:00
