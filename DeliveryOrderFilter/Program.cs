@@ -9,8 +9,9 @@ internal class Program
         LogManager.Configuration=new XmlLoggingConfiguration("NLog.config");
         Console.WriteLine("Введите район города");
         string cityDistrict=Console.ReadLine();
-        Console.WriteLine("Введите время доставки первого заказа в формате \"ГГ/ММ/ДД ЧЧ:ММ:СС\"");
+        Console.WriteLine("Введите время доставки первого заказа в формате \"ДД/ММ/ГГ ЧЧ:ММ:СС\"");
         string FirstDeliveryDateTime=Console.ReadLine();
         OrderManager.GetInstance().FilterOrders(cityDistrict, DateTime.Parse(FirstDeliveryDateTime));
     }
 }
+

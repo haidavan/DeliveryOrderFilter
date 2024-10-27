@@ -1,6 +1,9 @@
 ﻿using NLog;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json;
+using OrderDeliveryLibrary;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 
 namespace DeliveryOrderFilter;
 
@@ -40,7 +43,12 @@ public class OrderManager
         }
         using(var FileWriter=new StreamWriter("results.txt"))
         {
-            FileWriter.Write(JsonSerializer.Serialize(resultOrders));
+            var options = new JsonSerializerOptions
+            {
+                Encoder = JavaScriptEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Cyrillic),
+                WriteIndented = true
+            };
+            FileWriter.Write(JsonSerializer.Serialize(resultOrders,options));
         }
     }
     public static OrderManager GetInstance()

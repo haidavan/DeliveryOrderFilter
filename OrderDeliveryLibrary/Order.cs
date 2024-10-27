@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-namespace DeliveryOrderFilter;
+namespace OrderDeliveryLibrary;
 
 public class Order
 {

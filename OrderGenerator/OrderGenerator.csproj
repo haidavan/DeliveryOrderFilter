@@ -8,21 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NLog" Version="5.3.4" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\OrderDeliveryLibrary\OrderDeliveryLibrary.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Logs.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="NLog.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="Orders.txt">
+    <None Update="Districts.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
